@@ -57,3 +57,29 @@ if (age2 < 18) {
 } else {
   console.log("You are old");
 }
+
+switch (new Date().getDay()) {
+  case 0:
+    console.log("Sunday");
+    break;
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Twesday");
+    break;
+  case 3:
+    console.log("Wednessday");
+    break;
+  case 4:
+    console.log("Thirsday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saterday");
+    break;
+  default:
+    console.log("Wating for weekend");
+}
