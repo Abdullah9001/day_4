@@ -121,3 +121,5 @@ for (const x of names) {
   console.log(x);
 }
 // For of loop done
+
+// Second day all lession done
