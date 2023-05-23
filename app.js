@@ -83,3 +83,24 @@ switch (new Date().getDay()) {
   default:
     console.log("Wating for weekend");
 }
+
+// For Loop Start
+const carsList = document.getElementById("cars");
+
+var cars = ["Volvo", "Toyota", "Maruti", "Honda", "Mahindra", "BMW"];
+
+for (let index = 0; index < cars.length; index++) {
+  const element = cars[index];
+  const list = document.createElement("li");
+  list.innerText = element;
+  carsList.appendChild(list);
+}
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+// For Loop Done
