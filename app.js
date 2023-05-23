@@ -104,3 +104,13 @@ for (let i = 10; i >= 1; i--) {
   console.log(i);
 }
 // For Loop Done
+
+// For in loop
+
+let person = { fname: "Abdullah", lname: "Jubayer", age: 22 };
+
+for (const x in person) {
+  console.log(person[x]);
+}
+
+// For in loop lession done
