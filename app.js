@@ -114,3 +114,10 @@ for (const x in person) {
 }
 
 // For in loop lession done
+
+//For of lession start
+let names = "Sakib";
+for (const x of names) {
+  console.log(x);
+}
+// For of loop done
